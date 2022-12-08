@@ -16,5 +16,5 @@ func setupRoutes() {
 }
 
 func main() {
-    fmt.Println("Hello World")
+    fmt.Println("Innosquad Initiative")
 }
