@@ -11,13 +11,24 @@
 	<body>
 	  <div class="contact-us">
 	    <div>
-	      <p><b>EMPLOYEES SALARY_Input x</b></p>
+	      <p><b>PROCESS PRELOAD Data Wrangler</b></p>
 	    </div>
 	    <form action='{{ url_for("form") }}' method="POST">
-	      <label for="Increment in Salary(%)">Increment in Salary(%) </label> <input id="z" name="z" required="" type="number" />
+	      <label for="Increment in Salary(%)">Taxonomy File Upload </label> 
+          <input type="file" name="myFile" id="z" name="z" required="" />
+          <!-- <input id="z" name="z" required="" type="number" /> -->
 	      <button id="SUBMIT">SUBMIT</button>
 	    </form>
 	  </div>
+
+      <!-- <form
+      enctype="multipart/form-data"
+      action="http://localhost:8080/upload"
+      method="post">
+      <input type="file" name="myFile" />
+      <input type="submit" value="upload" />
+    </form> -->
+      
 	
 
 	</body>
